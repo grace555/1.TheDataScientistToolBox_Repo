@@ -1,0 +1,83 @@
+##Week 2 Quiz
+
+**Question1**
+==========
+Which of the following commands will create a directory called data in your current working
+directory?
+
+a)mkdir ../data
+b)mkdir /Users/data
+c)mkdir data
+d)touch data
+
+***answer***: c)
+
+
+**Question2**
+==========
+Which of the following will initiate a git repository locally?
+
+a)git init
+b)git merge origin master
+c)git pull
+d)git push
+
+***answer***: a)
+
+
+**Question3**
+==========
+Suppose you have forked a repository called datascientist on Github but it isn't on your local
+computer yet. Which of the following is the command to bring the directory to your local
+computer? (For this question assume that your user name is username)
+
+a)git pull datascientist master
+b)git push origin master
+c)git clone https://github.com/username/datascientist.git
+d)git pull https://github.com/username/datascientist.git
+
+***answer***: c)
+
+
+**Question4**
+==========
+Which of the following will create a markdown document with a secondary heading saying "Data
+Science Specialization" and an unordered list with the following for bullet points: Uses R, Nine
+courses, Goes from raw data to data products
+
+a)"*h2 Data Science Specialization"
+  "* Uses R"
+  "* Nine courses"
+  "* Goes from raw data to data products"
+  
+b)"*** Data Science Specialization"
+   "* Uses R"
+   "* Nine courses"
+   "* Goes from raw data to data products"
+   
+c)"### Data Science Specialization"
+  "* Uses R"
+  "* Nine courses"
+  "* Goes from raw data to data products"
+  
+d)"## Data Science Specialization"
+  "* Uses R"
+  "* Nine courses"
+  "* Goes from raw data to data products"
+  
+***answer***: d)
+
+
+**Question5**
+==========
+Install and load the KernSmooth R package. What does the copyright message say?
+```{r}
+install.packages("KernSmooth") ## installing the specified package 'kernSmooth'
+library(KernSmooth) ## loading the package 'KernSmooth'
+```
+a)Copyright Matthew Wand 1997-2009
+b)Copyright M. P. Wand 1990-2009
+c)Copyright M. P. Wand 1997-2009
+d)Copyright KernSmooth 1997-2009
+
+***answer***: c)
